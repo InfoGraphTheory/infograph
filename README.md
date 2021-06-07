@@ -10,9 +10,10 @@ It consists of three verticies that is, the two ends and the edge's own vertex, 
 # edge vertex
 Being able to treat the edge as a vertex has an advantage when it comes to modeling in detail. 
 It means that every time an edge is made, a new possible vertex is added to the graph. 
-Hence for each new edge *n* new edges can potentially be drawn, where *n* it the number of verticies in the graph.
+Hence for each new edge, *n* new edges can potentially be drawn, where *n* it the number of verticies in the graph.
 
 # info table
 Since an info graph consists of info triples and info triples consists of three verticies,
-an info graph can be written in a simple table format with three rows which here is called an info table. 
-The first row in the info table is for the edge vertex which is the identifier.
+an info graph can be written in a simple table format with three columns which we call an info table. 
+The first column in the info table is for primary key which is the idetifier of the edge vertex.
+The other columns holds the identifiers of the adjacent verticies of the info triple.
