@@ -1,0 +1,14 @@
+[package]
+name = "infograph"
+version = "0.3.0-unstable"
+edition = "2021"
+description = "An implementation of the Info Graph"
+license = "MIT"
+
+[dependencies]
+ig_tr = { version = "0.2.0-unstable", path = "../ig_tr" }
+ig_desc = { version = "0.2.0-unstable", path = "../ig_desc" }
+ig_edge = { version = "0.2.0-unstable", path = "../ig_edge" }
+ig_tools = { version = "0.1.0-unstable", path = "../ig_tools" }
+
+
